@@ -117,7 +117,57 @@
     </section>
     <!--Seção de ferramentas-->
     <section class="container mt-6">
-      Sessão de ferramentas
+    <h1 class="class title is-4">Ferramentas</h1>
+      <div class="columns">
+        <div class="column">
+          MediaCast
+          <div class="buttons">
+            <a href="#" class="button is-success">
+              Baixar
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          RádioBoss
+          <div class="buttons">
+            <a href="#" class="button is-success">
+              Baixar
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          ZaraRádio
+          <div class="buttons">
+            <a href="#" class="button is-success">
+              Baixar
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          RádioCast
+          <div class="buttons">
+            <a href="#" class="button is-success">
+              Baixar
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          AnyDesk
+          <div class="buttons">
+            <a href="#" class="button is-success">
+              Baixar
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          RádiosNet
+          <div class="buttons">
+            <a href="#" class="button is-success">
+              Baixar
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
     <!--Modal-->
     <div class="modal">
