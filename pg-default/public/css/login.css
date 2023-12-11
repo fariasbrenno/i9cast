@@ -1,0 +1,34 @@
+
+.ColRadio{
+    height: 100vh;
+}
+.ColInput{
+    height: 100vh;
+}
+.fa-microphone-lines, .fa-user-tie{
+    font-size: 200px;
+}
+.NomeRadio{
+    font-size: 100px;
+}
+.Input{
+    width: 70%;
+    box-shadow: 0 0 4px blue;
+}
+@media screen and (max-width: 758px) {
+    .ColRadio{
+        height: 200px;
+    }
+    .ColInput{
+        height: 400px;
+    }
+    .fa-microphone-lines, .fa-user-tie{
+        font-size: 100px;
+    }
+    .NomeRadio{
+        font-size: 40px;
+    }
+    .Input{
+        width: 100%;
+    }
+}
