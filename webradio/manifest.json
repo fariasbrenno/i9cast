@@ -1,0 +1,16 @@
+{
+    "name": "R\u00c3\u00a1dio Rom\u00c3\u00a2ntica FM",
+    "short_name": "R\u00c3\u00a1dio Rom\u00c3\u00a2ntica FM",
+    "start_url": "app\/index.php",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "icons": [
+        {
+            "src": "..\/public\/img\/logo\/c4ef400d6f21d85c461070e8749e8bd8.png",
+            "sizes": "192x192",
+            "type": "image\/png",
+            "style": "border-radius: 10px;"
+        }
+    ]
+}

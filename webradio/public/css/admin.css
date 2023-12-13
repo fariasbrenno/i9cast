@@ -1,0 +1,78 @@
+    .mt-50{
+        margin-top: 75px;
+    }
+    .fotoHover:hover{
+        cursor: pointer;
+        transform: scale(105%);
+    }
+    .editar:hover{
+        background-color: red;
+    }
+    .imgHover:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .CorFundo, .IconeSocial{
+        width:30px;
+        height:30px;
+    }
+
+    .PointerEvent{
+        cursor: pointer;
+    }
+
+    .iconPlaying:hover, .iconStoped:hover, .iconSociais:hover, .corHover:hover, .menuHover:hover{
+        cursor: pointer;
+        transform: scale(125%);
+    }
+
+    .menuHover:hover{
+        cursor: pointer;
+        transform: scale(110%);
+        font-weight: bold;
+    }
+
+    .AppHover:hover{
+        cursor: pointer;
+        transform: scale(105%);
+    }
+    .m-top-logo{
+        margin-top: 60px;
+    }
+
+
+/* COR MENU SITE */
+    .bg-roxo{
+        background-color: purple;
+    }
+
+    .bg-lilas{
+        background-color: #4c1a3f;
+    }
+
+    .bg-laranja{
+        background-color: orangered;
+    }
+
+    .bg-rosa{
+        background-color: #ff0072;
+    }
+
+
+/* UTILIDADES */
+    .df{
+        display: flex;
+    }
+    .d-j-a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @media screen and (max-width: 758px) {
+
+        .m-top-logo{
+            margin-top: 100px;
+        }
+
+
+    }
