@@ -5,7 +5,7 @@
     <div class="columns mx-2 my-2">
         <div class="column is-2 mr-3" style="border: 1px solid red">
             <div class="buttons are-medium">
-                <div class="button button-wrap-text is-light is-fullwidth" style="border:1px solid pink;">
+                <div class="button is-light is-fullwidth" style="border:1px solid pink;">
                     <figure class="image has-ratio is-48x48">
                         <img src="../_img/streaming.jpg" alt="">
                     </figure>
