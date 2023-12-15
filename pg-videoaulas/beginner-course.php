@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso</title>
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="_css/style.scss">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Vídeo Aulas</title>
 </head>
 <body>
-    <?php
-        include("../_view/header.php")
-    ?>
-<main class="container is-fluid py-5 px-6" id="teste">
+<main class="container is-fluid py-5 px-6">
     <div class="is-flex mb-3">
         <div class="is-flex is-align-items-center">
             <i class="fa-solid fa-arrow-left"></i>
@@ -32,7 +33,7 @@
                 </div>
                 <div class="is-flex is-align-items-center">
                     <figure class="image has-ratio is-48x48">
-                        <img src="../_img/streaming.jpg" alt="">
+                        <img src="_img/streaming.jpg" alt="">
                     </figure>
                     <div>
                         01-Come acessar o site
@@ -45,7 +46,7 @@
                 </div>
                 <div class="is-flex is-align-items-center">
                     <figure class="image has-ratio is-48x48">
-                        <img src="../_img/streaming.jpg" alt="">
+                        <img src="_img/streaming.jpg" alt="">
                     </figure>
                     <div>
                         01-Come acessar o site
@@ -65,6 +66,9 @@
         </div>
     </div>
 </main>
+  <footer class="footer">
+    Rodapé
+  </footer>
 </body>
+<script src="_js/script.js"></script>
 </html>
-

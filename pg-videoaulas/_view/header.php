@@ -13,7 +13,7 @@
   <header>
     <nav class="navbar has-shadow" role="navigation" aria-label="main navigation" id="teste">
       <div class="navbar-brand">
-        <a href="index.html" id="teste">
+        <a href="index.php" id="teste">
           <img class="image is-64x64"src="../_img/logo.png" alt="Logo" id="logo">
         </a>
         <span class="navbar-item"><a class="has-text-black" href="">Comece por aqui</a></span>
