@@ -1,0 +1,16 @@
+{
+    "name": "Radio i9cast",
+    "short_name": "Radio i9cast",
+    "start_url": "..\/app\/index.php",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "icons": [
+        {
+            "src": "..\/public\/img\/logo\/32d95b1e3095567826b4b33266ff48f0.png",
+            "sizes": "192x192",
+            "type": "image\/png",
+            "style": "border-radius: 10px;"
+        }
+    ]
+}

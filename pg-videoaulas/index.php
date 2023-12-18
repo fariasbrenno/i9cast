@@ -47,14 +47,14 @@
     <section class="container">
 
       <div class="columns mt-5">
-        <div class="column has-background-light barra">
-          <h1 class="title is-4 has-text-white" id="comece"><i class="fa-solid fa-lightbulb mr-2"></i>Comece por aqui</h1>
+        <div class="column has-background-light">
+          <h1 class="title is-4" id="comece"><i class="fa-solid fa-lightbulb mr-2"></i>Comece por aqui</h1>
         </div>
       </div>
 
       <div class="columns">
 
-        <div class="column is-3 has-background-white mt-3 box">
+        <div class="column is-3 has-background-white mt-3 box custom-hover">
           <figure class="image">
             <img src="_img/streaming.jpg" alt="">
             <div class="modal-background modal-background-backgound-color is-flex is-justify-content-center is-align-items-center">
@@ -81,8 +81,8 @@
     <!--Seção playlists-video asulas-->
     <section class="container">
       <div class="columns mt-5">
-        <div class="column has-background-light barra">
-          <h1 class="title is-4 has-text-white" id="playlists"><i class="fa-solid fa-circle-play mr-2"></i>Playlists - Video Aulas</h1>
+        <div class="column has-background-light">
+          <h1 class="title is-4" id="playlists"><i class="fa-solid fa-circle-play mr-2"></i>Playlists - Video Aulas</h1>
         </div>
       </div>
       <div class="columns">
@@ -150,7 +150,7 @@
     <section class="container mt-6">
       <div class="columns mt-5">
         <div class="column has-background-light barra">
-          <h1 class="title is-4 has-text-white" id="tools"><i class="fa-solid fa-gear mr-2"></i>Ferramentas</h1>
+          <h1 class="title is-4" id="tools"><i class="fa-solid fa-gear mr-2"></i>Ferramentas</h1>
         </div>
       </div>
 

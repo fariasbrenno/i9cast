@@ -1,0 +1,79 @@
+
+.img-doacao{
+    background-image: url('../painel/doacao.png');
+    background-position: center;
+    background-size: cover; 
+}    
+.row-menu{
+    height: 50px;
+}
+.col-btn-site{
+    border-radius: 50px;
+    height: 60px;
+}
+.coresTamanho{
+    width:30px;
+    height:30px;
+    margin: 3px;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 2px;
+}
+.btn-editar{
+    border-radius: 6px;
+    border: 0;
+    height: 40px;
+}
+.salvar_cor{
+    border-radius: 6px;
+    border: 0;
+    height: 30px;
+    width: 75px;
+}
+.col-apresentacao{
+    height: 75vh;
+}
+.mobile{
+    display: none;
+}
+.offcanva-adm{
+    margin-top:50px;
+    width:40%;
+    height:500px;
+}
+.scale:hover{
+    transform: scale(105%);
+}
+.play-m1{
+    right:200px;
+}
+.btn-editar{
+    width:25%;
+}
+@media screen and (max-width: 768px) {
+    .offcanva-adm{
+        margin-top:75px;
+        width:40%;
+        height:560px;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .col-apresentacao{
+        height:75vh;
+    }
+    .img-doacao{
+        background-size:contain;
+        background-repeat: no-repeat;       
+    }
+    .play-m1{
+        top:58%;
+        left:25%;
+    }
+    .btn-editar{
+        width:50%;
+    }
+}

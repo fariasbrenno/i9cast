@@ -1,0 +1,18 @@
+
+.menu-adm{
+    width:35px;
+    height:35px;
+}
+.menu-adm:hover{
+    transform: scale(110%);
+    background-color: black;
+    color: white;
+}
+.btn-salvar{
+    width: 25%;
+}
+@media screen and (max-width: 768px) {
+    .btn-salvar{
+        width: 75%;
+    } 
+}

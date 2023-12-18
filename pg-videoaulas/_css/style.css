@@ -11,16 +11,3 @@
     font-weight: 500;
     color: #fff;
 }
-.custom-background{
-    background-image: url('../_img/bg2.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-.custom-main{
-    
-}
-.barra{
-    background: rgb(3,3,38);
-    background: linear-gradient(90deg, rgba(3,3,38,1) 0%, rgba(99,97,147,0.2945553221288515) 100%);
-}
