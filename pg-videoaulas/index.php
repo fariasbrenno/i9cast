@@ -9,7 +9,7 @@
     <script src="https://www.youtube.com/iframe_api"></script> <!--API do youtube-->
     <title>Vídeo Aulas</title>
 </head>
-<body class="has-navbar-fixed-top">
+<body class="has-navbar-fixed-top custom-background">
   <!--Header,menu,nav-->
   <header>
     <nav class="navbar has-shadow navbar is-fixed-top" role="navigation" aria-label="main navigation">
@@ -42,19 +42,19 @@
     </nav>
   </header>
   <!--Main-->
-  <main class="container">
+  <main class="custom-main">
     <!--Seção primeiros passos-->
     <section class="container">
 
       <div class="columns mt-5">
-        <div class="column has-background-light">
-          <h1 class="title is-4" id="comece"><i class="fa-solid fa-lightbulb mr-2"></i>Comece por aqui</h1>
+        <div class="column has-background-light barra">
+          <h1 class="title is-4 has-text-white" id="comece"><i class="fa-solid fa-lightbulb mr-2"></i>Comece por aqui</h1>
         </div>
       </div>
 
       <div class="columns">
 
-        <div class="column is-3">
+        <div class="column is-3 has-background-white mt-3 box">
           <figure class="image">
             <img src="_img/streaming.jpg" alt="">
             <div class="modal-background modal-background-backgound-color is-flex is-justify-content-center is-align-items-center">
@@ -73,22 +73,7 @@
             </div>
             <button class="modal-close is-large" aria-label="close" id="close-modal"></button>
           </div>
-
         </div>
-
-        <div class="column is-3">
-          <figure class="image">
-            <img src="_img/streaming.jpg" alt="">
-            <div class="modal-background is-flex is-justify-content-center is-align-items-center">
-              <a href="#" class="button">
-                <i class="fa-solid fa-play has-text-link fa-2xl"></i>
-              </a>
-            </div>
-          </figure>
-          <h1 class="title is-6">Como acessar o painel de Streamin e visão geral</h1>
-          <p>Nesta aula você aprenderá acessar seu painel de streaming, além de ter uma explicação geral sobre as funcionalidades do seu painel</p>
-        </div>
-
       </div>
 
     </section>
@@ -96,14 +81,13 @@
     <!--Seção playlists-video asulas-->
     <section class="container">
       <div class="columns mt-5">
-        <div class="column has-background-light">
-          <h1 class="title is-4" id="playlists"><i class="fa-solid fa-circle-play mr-2"></i>Playlists - Video Aulas</h1>
+        <div class="column has-background-light barra">
+          <h1 class="title is-4 has-text-white" id="playlists"><i class="fa-solid fa-circle-play mr-2"></i>Playlists - Video Aulas</h1>
         </div>
       </div>
       <div class="columns">
 
         <div class="column is-3">
-          <h1 class="title is-6 has-text-centered"><i class="fa-solid fa-list mr-2"></i>Playlist 01 - Iniciante</h1>
           <div class="card">
             <div class="card-image">
               <figure class="image is-square">
@@ -111,6 +95,7 @@
               </figure>
             </div>
             <div class="content px-2">
+              <h1 class="title is-5 has-text-centered mt-3"><i class="fa-solid fa-list mr-2"></i>Playlist 01 - Iniciante</h1>
               <p>Nesta playlist você vai aprender Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius facere accusantium optio harum adipisci a sunt, laborum assumenda ipsum odio libero aut quibusdam, praesentium doloremque animi, sapiente illo dolores eligendi!</p>
             </div>
             <div class="buttons is-centered">
@@ -122,7 +107,6 @@
         </div>
 
         <div class="column is-3">
-          <h1 class="title is-6 has-text-centered"><i class="fa-solid fa-list mr-2"></i>Playlist 02 - Intermediário</h1>
           <div class="card">
             <div class="card-image">
               <figure class="image is-square">
@@ -130,6 +114,7 @@
               </figure>
             </div>
             <div class="content px-2">
+              <h1 class="title is-5 has-text-centered mt-3"><i class="fa-solid fa-list mr-2"></i>Playlist 01 - Iniciante</h1>
               <p>Nesta playlist você vai aprender Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius facere accusantium optio harum adipisci a sunt, laborum assumenda ipsum odio libero aut quibusdam, praesentium doloremque animi, sapiente illo dolores eligendi!</p>
             </div>
             <div class="buttons is-centered">
@@ -141,7 +126,6 @@
         </div>
 
         <div class="column is-3">
-          <h1 class="title is-6 has-text-centered"><i class="fa-solid fa-list mr-2"></i>Playlist 03 - Avançado</h1>
           <div class="card">
             <div class="card-image">
               <figure class="image is-square">
@@ -149,6 +133,7 @@
               </figure>
             </div>
             <div class="content px-2">
+              <h1 class="title is-5 has-text-centered mt-3"><i class="fa-solid fa-list mr-2"></i>Playlist 01 - Iniciante</h1>
               <p>Nesta playlist você vai aprender Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius facere accusantium optio harum adipisci a sunt, laborum assumenda ipsum odio libero aut quibusdam, praesentium doloremque animi, sapiente illo dolores eligendi!</p>
             </div>
             <div class="buttons is-centered">
@@ -164,8 +149,8 @@
     <!--Seção de ferramentas-->
     <section class="container mt-6">
       <div class="columns mt-5">
-        <div class="column has-background-light">
-          <h1 class="title is-4" id="tools"><i class="fa-solid fa-gear mr-2"></i>Ferramentas</h1>
+        <div class="column has-background-light barra">
+          <h1 class="title is-4 has-text-white" id="tools"><i class="fa-solid fa-gear mr-2"></i>Ferramentas</h1>
         </div>
       </div>
 
