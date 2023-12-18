@@ -48,7 +48,7 @@
 
       <div class="columns mt-5">
         <div class="column has-background-light">
-          <h1 class="title is-4" id="comece">Comece por aqui</h1>
+          <h1 class="title is-4" id="comece"><i class="fa-solid fa-lightbulb mr-2"></i>Comece por aqui</h1>
         </div>
       </div>
 
@@ -69,7 +69,7 @@
           <div class="modal" id="modal-1">
             <div class="modal-background"></div>
             <div class="modal-content">
-              <iframe id="teste" width="560" height="315" src="https://www.youtube.com/embed/wXIRi9Hiuqk?si=38-ztzAYb7cHYukT?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe id="teste" width="560" height="315" src="https://www.youtube.com/embed/wXIRi9Hiuqk?si=38-ztzAYb7cHYukT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <button class="modal-close is-large" aria-label="close" id="close-modal"></button>
           </div>
@@ -97,20 +97,20 @@
     <section class="container">
       <div class="columns mt-5">
         <div class="column has-background-light">
-          <h1 class="title is-4" id="playlists">Playlists - Video Aulas</h1>
+          <h1 class="title is-4" id="playlists"><i class="fa-solid fa-circle-play mr-2"></i>Playlists - Video Aulas</h1>
         </div>
       </div>
       <div class="columns">
 
         <div class="column is-3">
-          <h1 class="title is-6 has-text-centered">Playlist 01 - Iniciante</h1>
+          <h1 class="title is-6 has-text-centered"><i class="fa-solid fa-list mr-2"></i>Playlist 01 - Iniciante</h1>
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              <figure class="image is-square">
+                <img src="_img/sigma.jpg" alt="Placeholder image">
               </figure>
             </div>
-            <div class="content">
+            <div class="content px-2">
               <p>Nesta playlist você vai aprender Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius facere accusantium optio harum adipisci a sunt, laborum assumenda ipsum odio libero aut quibusdam, praesentium doloremque animi, sapiente illo dolores eligendi!</p>
             </div>
             <div class="buttons is-centered">
@@ -122,14 +122,14 @@
         </div>
 
         <div class="column is-3">
-          <h1 class="title is-6 has-text-centered">Playlist 02 - Intermediário</h1>
+          <h1 class="title is-6 has-text-centered"><i class="fa-solid fa-list mr-2"></i>Playlist 02 - Intermediário</h1>
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              <figure class="image is-square">
+                <img src="_img/sigma.jpg" alt="Placeholder image">
               </figure>
             </div>
-            <div class="content">
+            <div class="content px-2">
               <p>Nesta playlist você vai aprender Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius facere accusantium optio harum adipisci a sunt, laborum assumenda ipsum odio libero aut quibusdam, praesentium doloremque animi, sapiente illo dolores eligendi!</p>
             </div>
             <div class="buttons is-centered">
@@ -141,14 +141,14 @@
         </div>
 
         <div class="column is-3">
-          <h1 class="title is-6 has-text-centered">Playlist 03 - Avançado</h1>
+          <h1 class="title is-6 has-text-centered"><i class="fa-solid fa-list mr-2"></i>Playlist 03 - Avançado</h1>
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              <figure class="image is-square">
+                <img src="_img/sigma.jpg" alt="Placeholder image">
               </figure>
             </div>
-            <div class="content">
+            <div class="content px-2">
               <p>Nesta playlist você vai aprender Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius facere accusantium optio harum adipisci a sunt, laborum assumenda ipsum odio libero aut quibusdam, praesentium doloremque animi, sapiente illo dolores eligendi!</p>
             </div>
             <div class="buttons is-centered">
@@ -165,7 +165,7 @@
     <section class="container mt-6">
       <div class="columns mt-5">
         <div class="column has-background-light">
-          <h1 class="title is-4" id="tools">Ferramentas</h1>
+          <h1 class="title is-4" id="tools"><i class="fa-solid fa-gear mr-2"></i>Ferramentas</h1>
         </div>
       </div>
 
