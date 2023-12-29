@@ -7,9 +7,9 @@ function redirect($url) {
 
 // Configuração das informações de conexão
 $host = 'localhost';
-$user = 'webradio_root';
-$password = '.krowiten.suporte*';
-$database = 'webradio_oficial';
+$user = 'root';
+$password = '';
+$database = 'i9cast-padrao';
 
 // Conexão com o banco de dados MySQL
 $conexao = new mysqli($host, $user, $password, $database);

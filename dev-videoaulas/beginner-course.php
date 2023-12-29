@@ -29,34 +29,30 @@
                         INTRODUÇÃO
                     </div>
 
-                    <div class="is-flex is-align-items-center my-2 px-2 div-aula">
-                        <div class="mr-2">
-                            <i class="fa-regular fa-circle"></i>
-                        </div>
+                    <div class="is-flex is-align-items-center my-2 pr-2 div-aula">
                         <div class="is-flex is-align-items-center">
                             <figure class="image has-ratio is-48x48">
                                 <img src="_img/streaming.jpg" alt="">
                             </figure>
-                            <span>01-Como acessar o site</span>
+                            <span class="ml-2">01-Como acessar o site</span>
                         </div>
                     </div>
 
-                    <div class="is-flex is-align-items-center my-2 px-2 div-aula">
-                        <div class="mr-2">
-                            <i class="fa-regular fa-circle"></i>
-                        </div>
+                    <div class="is-flex is-align-items-center my-2 pr-2 div-aula">
                         <div class="is-flex is-align-items-center">
                             <figure class="image has-ratio is-48x48">
                                 <img src="_img/streaming.jpg" alt="">
                             </figure>
-                            <span>01-Come acessar o site</span> 
+                            <span class="ml-2">01-Come acessar o site</span> 
                         </div>
                     </div>
 
                 </div>
 
             </div>
+        </div>
 
+        <div class="columns">
             <div class="column">
                 <div>
                     <iframe width="900" height="700" src="https://www.youtube.com/embed/rC6r1ne-BZ0?si=7HT2sjRzMMZBAeEl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -66,7 +62,7 @@
                     Descrição
                 </div>
             </div>
-        </div>    
+        </div>  
     </main>
     <footer class="footer">
         Rodapé

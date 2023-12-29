@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seu Site de Videoaulas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <style>
+        .card-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card-overlay a {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <strong>Logo</strong>
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="#comece-por-aqui">
+                        Comece por aqui
+                    </a>
+                    <a class="navbar-item" href="#playlists">
+                        Playlists
+                    </a>
+                    <a class="navbar-item" href="#ferramentas">
+                        Ferramentas
+                    </a>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a href="https://wa.me/seu-numero-comercial" class="button is-primary">
+                                <span class="icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </span>
+                                <span>Comercial</span>
+                            </a>
+                            <a href="https://wa.me/seu-numero-suporte" class="button is-primary">
+                                <span class="icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </span>
+                                <span>Suporte Técnico</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção: Comece por aqui -->
+    <section id="comece-por-aqui" class="hero is-primary is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Bem-vindo ao Seu Site de Videoaulas
+                </h1>
+                <h2 class="subtitle">
+                    Aprenda no seu próprio ritmo.
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção: Videoaulas -->
+    <section class="section">
+        <div class="container">
+            <h2 class="title">Comece por aqui</h2>
+
+            <div class="columns">
+                <div class="column is-half">
+                    <div class="box relative-box" onclick="openVideoModal('video1')">
+                        <div class="card-overlay">
+                            <a href="#" class="button is-primary">Assistir</a>
+                        </div>
+                        <figure class="image is-16by9">
+                            <img src="https://via.placeholder.com/800x450" alt="Placeholder image">
+                        </figure>
+                        <p class="subtitle is-6 has-text-centered">Vídeo 1</p>
+                    </div>
+                </div>
+
+                <div class="column is-half">
+                    <div class="box relative-box" onclick="openVideoModal('video2')">
+                        <div class="card-overlay">
+                            <a href="#" class="button is-primary">Assistir</a>
+                        </div>
+                        <figure class="image is-16by9">
+                            <img src="https://via.placeholder.com/800x450" alt="Placeholder image">
+                        </figure>
+                        <p class="subtitle is-6 has-text-centered">Vídeo 2</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modais para vídeos -->
+            <div class="modal" id="video1">
+                <div class="modal-background" onclick="closeVideoModal('video1')"></div>
+                <div class="modal-content">
+                    <iframe id="iframeVideo1" width="560" height="315" src="https://www.youtube.com/embed/rC6r1ne-BZ0?si=pw9k1SVdzc82R_7V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="card-overlay">
+                        <a href="#" class="button is-primary">Assistir</a>
+                    </div>
+                </div>
+                <button class="modal-close is-large" aria-label="close" onclick="closeVideoModal('video1')"></button>
+            </div>
+
+            <div class="modal" id="video2">
+                <div class="modal-background" onclick="closeVideoModal('video2')"></div>
+                <div class="modal-content">
+                    <iframe id="iframeVideo2" width="560" height="315" src="https://www.youtube.com/embed/rC6r1ne-BZ0?si=pw9k1SVdzc82R_7V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="card-overlay">
+                        <a href="#" class="button is-primary">Assistir</a>
+                    </div>
+                </div>
+                <button class="modal-close is-large" aria-label="close" onclick="closeVideoModal('video2')"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção: Nossas Videoaulas -->
+    <section class="section">
+        <div class="container">
+            <h2 class="title">Nossas Videoaulas</h2>
+
+            <div class="columns">
+                <div class="column is-one-third">
+                    <div class="box relative-box" onclick="openVideoModal('video3')">
+                        <div class="card-overlay">
+                            <a href="#" class="button is-primary">Assistir</a>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://via.placeholder.com/800x600" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-4 has-text-centered">Introdução à Programação</p>
+                                <p class="subtitle is-6 has-text-centered">Professor: John Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="box relative-box" onclick="openVideoModal('video4')">
+                        <div class="card-overlay">
+                            <a href="#" class="button is-primary">Assistir</a>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://via.placeholder.com/800x600" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-4 has-text-centered">Design Gráfico Avançado</p>
+                                <p class="subtitle is-6 has-text-centered">Instrutor: Jane Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="box relative-box" onclick="openVideoModal('video5')">
+                        <div class="card-overlay">
+                            <a href="#" class="button is-primary">Assistir</a>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://via.placeholder.com/800x600" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-4 has-text-centered">Marketing Digital</p>
+                                <p class="subtitle is-6 has-text-centered">Facilitador: Exemplo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção: Ferramentas -->
+    <section id="ferramentas" class="section">
+        <div class="container">
+            <h2 class="title">Ferramentas</h2>
+
+            <div class="columns is-centered">
+                <div class="column is-one-fifth">
+                    <div class="card has-text-centered">
+                        <div class="card-content">
+                            <figure class="image is-96x96 mx-auto">
+                                <img src="https://via.placeholder.com/96x96" alt="Tool 1 Logo">
+                            </figure>
+                            <p class="title is-4">Ferramenta 1</p>
+                            <a href="#" class="button is-info">Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-one-fifth">
+                    <div class="card has-text-centered">
+                        <div class="card-content">
+                            <figure class="image is-96x96 mx-auto">
+                                <img src="https://via.placeholder.com/96x96" alt="Tool 2 Logo">
+                            </figure>
+                            <p class="title is-4">Ferramenta 2</p>
+                            <a href="#" class="button is-info">Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-one-fifth">
+                    <div class="card has-text-centered">
+                        <div class="card-content">
+                            <figure class="image is-96x96 mx-auto">
+                                <img src="https://via.placeholder.com/96x96" alt="Tool 3 Logo">
+                            </figure>
+                            <p class="title is-4">Ferramenta 3</p>
+                            <a href="#" class="button is-info">Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-one-fifth">
+                    <div class="card has-text-centered">
+                        <div class="card-content">
+                            <figure class="image is-96x96 mx-auto">
+                                <img src="https://via.placeholder.com/96x96" alt="Tool 4 Logo">
+                            </figure>
+                            <p class="title is-4">Ferramenta 4</p>
+                            <a href="#" class="button is-info">Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-one-fifth">
+                    <div class="card has-text-centered">
+                        <div class="card-content">
+                            <figure class="image is-96x96 mx-auto">
+                                <img src="https://via.placeholder.com/96x96" alt="Tool 5 Logo">
+                            </figure>
+                            <p class="title is-4">Ferramenta 5</p>
+                            <a href="#" class="button is-info">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Seu Site de Videoaulas</strong> &copy; 2023.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bulma@0.9.3/js/bulma.min.js"></script>
+
+    <script>
+        function openVideoModal(modalId) {
+            document.getElementById(modalId).classList.add('is-active');
+        }
+
+        function closeVideoModal(modalId) {
+            var modal = document.getElementById(modalId);
+            var iframe = modal.querySelector('iframe');
+            iframe.src = iframe.src; // resetando a src para parar a reprodução
+            modal.classList.remove('is-active');
+        }
+    </script>
+</body>
+
+</html>
