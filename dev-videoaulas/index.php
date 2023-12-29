@@ -9,10 +9,10 @@
     <script src="https://www.youtube.com/iframe_api"></script> <!--API do youtube-->
     <title>Vídeo Aulas</title>
 </head>
-<body class="has-navbar-fixed-top custom-background">
+<body class="has-navbar-fixed-top">
   <!--Header,menu,nav-->
   <header>
-    <nav class="navbar has-shadow navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a href="index.php" id="teste">
           <img class="image is-64x64"src="_img/logo.png" alt="Logo" id="logo">
@@ -24,11 +24,11 @@
         </a>
       </div>
       <div class="navbar-menu" id="start-menu">
-        <span class="navbar-item"><a class="has-text-black" href="#comece">Comece por aqui</a></span>
-        <span class="navbar-item"><a class="has-text-black" href="#playlists">Video aulas</a></span>
-        <span class="navbar-item"><a class="has-text-black" href="#tools">Ferramentas</a></span>
+        <span class="navbar-item"><a class="has-text-white" href="#comece">Comece por aqui</a></span>
+        <span class="navbar-item"><a class="has-text-white" href="#playlists">Video aulas</a></span>
+        <span class="navbar-item"><a class="has-text-white" href="#tools">Ferramentas</a></span>
       </div>
-      <!--Whasapp Menu-->
+      <!--Whatsapp Menu-->
       <div class="navbar-menu navbar-end" id="end-menu">
         <a class="navbar-item is-tab" href="https://wa.me/5596991415493" target="_blank">
           <i class="fa-brands fa-whatsapp has-text-success fa-xl mr-2"></i>
@@ -40,9 +40,20 @@
         </a>
       </div>
     </nav>
+    <section class="hero is-medium is-dark has-text-centered">
+      <div class="hero-body container">
+        <i class="fa-solid fa-radio fa-2xl mb-6 is-size-1"></i>
+        <p class="title">
+          Bem-vindo as aulas i9cast
+        </p>
+        <p class="subtitle">
+          Aprenda a gerenciar sua Web Rádio
+        </p>
+      </div>
+    </section>
   </header>
   <!--Main-->
-  <main class="custom-main">
+  <main>
     <!--Seção primeiros passos-->
     <section class="container">
 
@@ -58,8 +69,8 @@
           <figure class="image">
             <img src="_img/streaming.jpg" alt="">
             <div class="modal-background modal-background-backgound-color is-flex is-justify-content-center is-align-items-center">
-              <a href="#" class="button" id="play-1">
-                <i class="fa-solid fa-play has-text-link fa-2xl"></i>
+              <a href="#" class="button is-link" id="play-1">
+                <p>Assistir</p>
               </a>
             </div>
           </figure>
