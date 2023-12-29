@@ -10,16 +10,19 @@ burgerMenu.addEventListener('click', () => {
 })
 
 //MODAL - COMECE POR AQUI
-const firstModal = document.querySelector('.modal');
-const playButton = document.querySelector('#play-1');
-const closeModal = document.querySelector('#close-modal');
+var firstModal = document.querySelector('.modal');
+var openModal = document.querySelector('.open-modal');
+var closeModal = document.querySelector('.close-modal');
+var youtubeIframe = firstModal.querySelector('iframe');
 
 //abrir modal
-playButton.addEventListener('click', () => {
+openModal.addEventListener('click', () => {
     firstModal.classList.add('is-active');
 })
+
 //fechar modal
 closeModal.addEventListener('click', () => {
+    youtubeIframe.src = youtubeIframe.src; //resetando o iframe do youtube para parar o vídeo
     firstModal.classList.remove('is-active');
 })
 

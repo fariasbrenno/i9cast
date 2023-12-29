@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> <!--Bulma-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"><!--Font Awesome-->
     <script src="https://www.youtube.com/iframe_api"></script> <!--API do youtube-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <title>Vídeo Aulas</title>
 </head>
 <body class="has-navbar-fixed-top">
@@ -41,8 +42,8 @@
       </div>
     </nav>
     <section class="hero is-medium is-dark has-text-centered">
-      <div class="hero-body container">
-        <i class="fa-solid fa-radio fa-2xl mb-6 is-size-1"></i>
+      <div class="hero-body">
+        <i class="fa-solid fa-headphones fa-2xl is-size-1 mb-6"></i>
         <p class="title">
           Bem-vindo as aulas i9cast
         </p>
@@ -65,54 +66,57 @@
 
       <div class="columns">
 
+        <!--Inicio do card-->
         <div class="column is-3 has-background-white m-3 box custom-hover">
           <figure class="image">
             <img src="_img/streaming.jpg" alt="">
             <div class="modal-background modal-background-backgound-color is-flex is-justify-content-center is-align-items-center">
-              <a href="#" class="button is-link" id="play-1">
+              <a href="#" class="button is-link open-modal">
                 <p>Assistir</p>
               </a>
             </div>
           </figure>
-          <h1 class="title is-6">Como acessar o painel de Streamin e visão geral</h1>
+          <h1 class="title is-5">Como acessar o painel de Streamin e visão geral</h1>
           <p>Nesta aula você aprenderá acessar seu painel de streaming, além de ter uma explicação geral sobre as funcionalidades do seu painel</p>
-
-          <div class="modal" id="modal-1">
+          <!--Modal de vídeo youtube-->
+          <div class="modal open-modal">
             <div class="modal-background"></div>
             <div class="modal-content">
-              <iframe id="teste" width="560" height="315" src="https://www.youtube.com/embed/wXIRi9Hiuqk?si=38-ztzAYb7cHYukT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="youtube-iframe"></iframe>
+              <iframe class="youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/wXIRi9Hiuqk?si=38-ztzAYb7cHYukT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <button class="modal-close is-large" aria-label="close" id="close-modal"></button>
+            <button class="modal-close is-large close-modal" aria-label="close"></button>
           </div>
         </div>
-
-        <div class="column is-3 has-background-white m-3 box custom-hover">
-          <figure class="image">
-            <img src="_img/streaming.jpg" alt="">
-            <div class="modal-background modal-background-backgound-color is-flex is-justify-content-center is-align-items-center">
-              <a href="#" class="button is-link" id="play-1">
-                <p>Assistir</p>
-              </a>
-            </div>
-          </figure>
-          <h1 class="title is-6">Como acessar o painel de Streamin e visão geral</h1>
-          <p>Nesta aula você aprenderá acessar seu painel de streaming, além de ter uma explicação geral sobre as funcionalidades do seu painel</p>
-
-          <div class="modal" id="modal-1">
-            <div class="modal-background"></div>
-            <div class="modal-content">
-              <iframe id="teste" width="560" height="315" src="https://www.youtube.com/embed/wXIRi9Hiuqk?si=38-ztzAYb7cHYukT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <button class="modal-close is-large" aria-label="close" id="close-modal"></button>
-          </div>
-        </div>
+        <!--Fim do card-->
         
+        <!--Inicio do card-->
+        <div class="column is-3 has-background-white m-3 box custom-hover">
+          <figure class="image">
+            <img src="_img/streaming.jpg" alt="">
+            <div class="modal-background modal-background-backgound-color is-flex is-justify-content-center is-align-items-center">
+              <a href="#" class="button is-link open-modal">
+                <p>Assistir</p>
+              </a>
+            </div>
+          </figure>
+          <h1 class="title is-5">Como acessar o painel de Streamin e visão geral</h1>
+          <p>Nesta aula você aprenderá acessar seu painel de streaming, além de ter uma explicação geral sobre as funcionalidades do seu painel</p>
+          <!--Modal de vídeo youtube-->
+          <div class="modal open-modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+              <iframe class="youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/wXIRi9Hiuqk?si=38-ztzAYb7cHYukT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <button class="modal-close is-large close-modal" aria-label="close"></button>
+          </div>
+        </div>
+        <!--Fim do card--> 
 
       </div>
 
     </section>
 
-    <!--Seção playlists-video asulas-->
+    <!--Seção playlists-video aulas-->
     <section class="container">
       <div class="columns mt-5">
         <div class="column has-background-light">
@@ -273,17 +277,7 @@
       </div>
     </section>
     <!--Modal-->
-    <div class="modal" id="modal">
-      <div class="modal-background ">
-      </div>
-        <div class="modal-content ">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/rC6r1ne-BZ0?si=ZcRZVd1sy5WhX7zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <span class="icon">
-            <i class="fa-solid fa-circle-xmark fa-2xl has-text-danger"></i>
-          </span>
-        </div>
-        
-    </div>
+    
   </main>
   <footer class="footer has-background-dark">
     Rodapé
