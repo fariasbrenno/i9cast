@@ -14,7 +14,7 @@
   <header>
     <nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a href="index.php" id="teste">
+        <a href="index.php">
           <img class="image is-64x64"src="_img/logo.png" alt="Logo" id="logo">
         </a>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" id="burger-menu">
@@ -23,7 +23,7 @@
           <span aria-hidden="true"></span>
         </a>
       </div>
-      <div class="navbar-menu" id="start-menu">
+      <div class="navbar navbar-menu is-dark" id="start-menu">
         <span class="navbar-item"><a class="has-text-white" href="#comece">Comece por aqui</a></span>
         <span class="navbar-item"><a class="has-text-white" href="#playlists">Video aulas</a></span>
         <span class="navbar-item"><a class="has-text-white" href="#tools">Ferramentas</a></span>
@@ -65,7 +65,28 @@
 
       <div class="columns">
 
-        <div class="column is-3 has-background-white mt-3 box custom-hover">
+        <div class="column is-3 has-background-white m-3 box custom-hover">
+          <figure class="image">
+            <img src="_img/streaming.jpg" alt="">
+            <div class="modal-background modal-background-backgound-color is-flex is-justify-content-center is-align-items-center">
+              <a href="#" class="button is-link" id="play-1">
+                <p>Assistir</p>
+              </a>
+            </div>
+          </figure>
+          <h1 class="title is-6">Como acessar o painel de Streamin e visão geral</h1>
+          <p>Nesta aula você aprenderá acessar seu painel de streaming, além de ter uma explicação geral sobre as funcionalidades do seu painel</p>
+
+          <div class="modal" id="modal-1">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+              <iframe id="teste" width="560" height="315" src="https://www.youtube.com/embed/wXIRi9Hiuqk?si=38-ztzAYb7cHYukT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="youtube-iframe"></iframe>
+            </div>
+            <button class="modal-close is-large" aria-label="close" id="close-modal"></button>
+          </div>
+        </div>
+
+        <div class="column is-3 has-background-white m-3 box custom-hover">
           <figure class="image">
             <img src="_img/streaming.jpg" alt="">
             <div class="modal-background modal-background-backgound-color is-flex is-justify-content-center is-align-items-center">
@@ -85,6 +106,8 @@
             <button class="modal-close is-large" aria-label="close" id="close-modal"></button>
           </div>
         </div>
+        
+
       </div>
 
     </section>
@@ -154,7 +177,7 @@
             </div>
           </div>
         </div>
-           
+          
       </div>
     </section>
     <!--Seção de ferramentas-->
@@ -167,94 +190,90 @@
 
       <div class="columns mb-6">
 
-        <div class="column is-2">
-          <h1 class="title mb-1 is-6 has-text-centered">MediaCast</h1>
-          <div class="content is-large m-0">
-            <figure>
-              <img src="_img/medicast-logo.png" alt="">
-            </figure>
+        <div class="column is-1">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-square">
+                <img src="_img/medicast-logo.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="content">
+              <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+            </div>
+            <div class="buttons is-centered">
+              <a href="#" class="button is-link is-success">Baixar</a>
+            </div>
           </div>
-          <div class="buttons is-centered">
-            <a href="#" class="button is-success">
-              Baixar
-            </a>
-          </div>
-        </div> 
-        
-        <div class="column is-2">
-          <h1 class="title mb-1 is-6 has-text-centered">MediaCast</h1>
-          <div class="content is-large m-0">
-            <figure>
-              <img src="_img/medicast-logo.png" alt="">
-            </figure>
-          </div>
-          <div class="buttons is-centered">
-            <a href="#" class="button is-success">
-              Baixar
-            </a>
-          </div>
-        </div>  
+        </div>
 
-        <div class="column is-2">
-          <h1 class="title mb-1 is-6 has-text-centered">MediaCast</h1>
-          <div class="content is-large m-0">
-            <figure>
-              <img src="_img/medicast-logo.png" alt="">
-            </figure>
+        <div class="column is-1">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-square">
+                <img src="_img/medicast-logo.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="content">
+              <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+            </div>
+            <div class="buttons is-centered">
+              <a href="#" class="button is-link is-success">Baixar</a>
+            </div>
           </div>
-          <div class="buttons is-centered">
-            <a href="#" class="button is-success">
-              Baixar
-            </a>
-          </div>
-        </div>  
+        </div>
 
-        <div class="column is-2">
-          <h1 class="title mb-1 is-6 has-text-centered">MediaCast</h1>
-          <div class="content is-large m-0">
-            <figure>
-              <img src="_img/medicast-logo.png" alt="">
-            </figure>
+        <div class="column is-1">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-square">
+                <img src="_img/medicast-logo.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="content">
+              <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+            </div>
+            <div class="buttons is-centered">
+              <a href="#" class="button is-link is-success">Baixar</a>
+            </div>
           </div>
-          <div class="buttons is-centered">
-            <a href="#" class="button is-success">
-              Baixar
-            </a>
-          </div>
-        </div>  
+        </div>
 
-        <div class="column is-2">
-          <h1 class="title mb-1 is-6 has-text-centered">MediaCast</h1>
-          <div class="content is-large m-0">
-            <figure>
-              <img src="_img/medicast-logo.png" alt="">
-            </figure>
+        <div class="column is-1">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-square">
+                <img src="_img/medicast-logo.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="content">
+              <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+            </div>
+            <div class="buttons is-centered">
+              <a href="#" class="button is-link is-success">Baixar</a>
+            </div>
           </div>
-          <div class="buttons is-centered">
-            <a href="#" class="button is-success">
-              Baixar
-            </a>
-          </div>
-        </div>  
+        </div>
 
-        <div class="column is-2">
-          <h1 class="title mb-1 is-6 has-text-centered">MediaCast</h1>
-          <div class="content is-large m-0">
-            <figure>
-              <img src="_img/medicast-logo.png" alt="">
-            </figure>
+        <div class="column is-1">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-square">
+                <img src="_img/medicast-logo.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="content">
+              <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+            </div>
+            <div class="buttons is-centered">
+              <a href="#" class="button is-link is-success">Baixar</a>
+            </div>
           </div>
-          <div class="buttons is-centered">
-            <a href="#" class="button is-success">
-              Baixar
-            </a>
-          </div>
-        </div>  
+        </div>
 
       </div>
     </section>
     <!--Modal-->
-    <div class="modal">
+    <div class="modal" id="modal">
       <div class="modal-background ">
       </div>
         <div class="modal-content ">
@@ -266,7 +285,7 @@
         
     </div>
   </main>
-  <footer class="footer">
+  <footer class="footer has-background-dark">
     Rodapé
   </footer>
   <script src="_js/script.js">
