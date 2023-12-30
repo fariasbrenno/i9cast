@@ -9,6 +9,9 @@
     <script src="https://www.youtube.com/iframe_api"></script> <!--API do youtube-->
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <title>Vídeo Aulas</title>
+    <style>
+
+    </style>
 </head>
 <body class="has-navbar-fixed-top">
   <!--Header,menu,nav-->
@@ -82,7 +85,7 @@
           <div class="modal open-modal">
             <div class="modal-background"></div>
             <div class="modal-content">
-              <iframe class="youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/wXIRi9Hiuqk?si=38-ztzAYb7cHYukT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe class="youtube-iframe" width="100%" height="315" src="https://www.youtube.com/embed/wXIRi9Hiuqk?si=38-ztzAYb7cHYukT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen enablejsapi></iframe>
             </div>
             <button class="modal-close is-large close-modal" aria-label="close"></button>
           </div>
