@@ -2,16 +2,17 @@
     padding: 0;
     margin: 0;
 }
+/*HOME*/
+.navbar-item:hover{
+    background-color: rgba(0, 0, 0, .3);
+    border-bottom:1px solid rgba(55, 0, 255, .3) ;
+}
+/*PÁGINA VÍDEO AULA*/
 .div-aula{
     background-color: #fff;
 }
 .div-aula:hover{
     background-color: rgba(0, 0, 0, .7);
     cursor: pointer;
-    font-weight: 500;
     color: #fff;
-}
-.navbar-item:hover{
-    background-color: rgba(0, 0, 0, .3);
-    border-bottom:1px solid rgba(55, 0, 255, .3) ;
 }
