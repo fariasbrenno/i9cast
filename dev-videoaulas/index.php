@@ -195,7 +195,7 @@
         </div>
       </div>
 
-      <div class="columns mb-6">
+      <div class="columns is-mobile mb-6 is-hidden-touch"><!--Container das colunas e cards das ferramentas (Some em aparelhos touch, celulares e tablets)-->
 
         <div class="column is-1">
           <div class="card">
@@ -278,6 +278,94 @@
         </div>
 
       </div>
+
+      <div class="columns is-mobile mb-6 is-hidden-desktop"><!--Linha 1 Container das colunas e cards das ferramentas (Some em desktop e só aparece em mobile e tablets)-->
+
+        <div class="column is-3">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-square">
+                <img src="_img/medicast-logo.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="content">
+              <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+            </div>
+            <div class="buttons is-centered">
+              <a href="#" class="button is-link is-success">Baixar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-3">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-square">
+                <img src="_img/medicast-logo.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="content">
+              <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+            </div>
+            <div class="buttons is-centered">
+              <a href="#" class="button is-link is-success">Baixar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-3">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-square">
+                <img src="_img/medicast-logo.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="content">
+              <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+            </div>
+            <div class="buttons is-centered">
+              <a href="#" class="button is-link is-success">Baixar</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="columns is-mobile mb-6 is-hidden-desktop"> <!--Linha 2 Container das colunas e cards das ferramentas (Some em desktop e só aparece em mobile e tablets)-->
+
+        <div class="column is-3">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="_img/medicast-logo.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="content">
+                <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+              </div>
+              <div class="buttons is-centered">
+                <a href="#" class="button is-link is-success">Baixar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-3">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="_img/medicast-logo.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="content">
+                <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+              </div>
+              <div class="buttons is-centered">
+                <a href="#" class="button is-link is-success">Baixar</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      
     </section>
     <!--Modal-->
     
