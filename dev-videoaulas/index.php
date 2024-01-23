@@ -201,11 +201,11 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-square">
-                <img src="_img/medicast-logo.png" alt="Placeholder image">
+                <img src="_img/anydesk-logo.png" alt="Placeholder image">
               </figure>
             </div>
             <div class="content">
-              <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+              <p class="is-5 has-text-centered has-text-weight-semibold">Anydesk</p>
             </div>
             <div class="buttons is-centered">
               <a href="#" class="button is-link is-success">Baixar</a>
@@ -217,11 +217,11 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-square">
-                <img src="_img/medicast-logo.png" alt="Placeholder image">
+                <img src="_img/radioboss-logo.png" alt="Placeholder image">
               </figure>
             </div>
             <div class="content">
-              <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+              <p class="is-5 has-text-centered has-text-weight-semibold">RádioBoss</p>
             </div>
             <div class="buttons is-centered">
               <a href="#" class="button is-link is-success">Baixar</a>
@@ -233,11 +233,11 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-square">
-                <img src="_img/medicast-logo.png" alt="Placeholder image">
+                <img src="_img/zararadio-logo.png" alt="Placeholder image">
               </figure>
             </div>
             <div class="content">
-              <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+              <p class="is-5 has-text-centered has-text-weight-semibold">Zararádio</p>
             </div>
             <div class="buttons is-centered">
               <a href="#" class="button is-link is-success">Baixar</a>
@@ -249,11 +249,11 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-square">
-                <img src="_img/medicast-logo.png" alt="Placeholder image">
+                <img src="_img/radiocaster-logo.png" alt="Placeholder image">
               </figure>
             </div>
             <div class="content">
-              <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+              <p class="is-5 has-text-centered has-text-weight-semibold">RádioCaster</p>
             </div>
             <div class="buttons is-centered">
               <a href="#" class="button is-link is-success">Baixar</a>
@@ -265,14 +265,14 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-square">
-                <img src="_img/medicast-logo.png" alt="Placeholder image">
+                <img src="_img/radiosnet-logo.png" alt="Placeholder image">
               </figure>
             </div>
             <div class="content">
-              <p class="is-5 has-text-centered has-text-weight-semibold">Mediacast</p>
+              <p class="is-5 has-text-centered has-text-weight-semibold">Rádios Net</p>
             </div>
             <div class="buttons is-centered">
-              <a href="#" class="button is-link is-success">Baixar</a>
+              <a href="#" class="button is-link is-success">Acessar</a>
             </div>
           </div>
         </div>
@@ -370,13 +370,51 @@
     <!--Modal-->
     
   </main>
-  <footer class="footer has-background-dark">
-    Rodapé
+  <footer class="footer has-background-dark has-text-white pb-0">
+    <div class="columns">
+
+      <div class="column">
+        <h1 class="title has-text-white is-5">i9cast serviços online</h1>
+        <ul>
+          <li>CNPJ: 27.701.433/0001-20</li>
+          <li>Av. Paulo Fontes, 4247 A - Sala 126</li>
+          <li>Centro, Florianópolis-SC</li>
+          <li>CEP: 88010-400</li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <h1 class="title has-text-white is-5">Acesse</h1>
+        <ul>
+          <li><a href="https://i9cast.com.br/" target="_blank" class="has-text-white">www.i9cast.com.br</a></li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <h1 class="title has-text-white is-5">Whatsapp</h1>
+        <div class="is-flex">
+          <div class="mr-6">
+            <p><i class="fa-brands fa-whatsapp has-text-success fa-xl mr-2"></i>Comercial</p>
+            <p><a href="#" class="has-text-white">(48)99136-6942</a></p>
+          </div>
+          <div>
+            <p><i class="fa-brands fa-whatsapp has-text-success fa-xl mr-2"></i>Suporte Técnico</p>
+            <p class="ml-5"><a href="#" class="has-text-white">(48)99207-9014</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="is-flex is-justify-content-center is-align-self-flex-end">
+      <p class="is-size-7 mt-6">9cast serviços online - todos os direitos reservados @2024</p>
+    </div>
+    
+    
   </footer>
   <script src="_js/script.js">
   
   </script>
 
 </body>
-
 </html>

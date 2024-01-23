@@ -53,9 +53,7 @@
                     <iframe id="iframe-aula" width="100%" height="700" src="https://www.youtube.com/embed/rC6r1ne-BZ0?si=7HT2sjRzMMZBAeEl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="title">Título do vídeo</div>
-                <div>
-                    Descrição
-                </div>
+                <div>Descrição</div>
             </div>
         </div>  
     </main>

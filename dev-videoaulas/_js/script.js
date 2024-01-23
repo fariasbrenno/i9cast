@@ -35,4 +35,3 @@ closeModal.addEventListener('click', () => {
     //iframe.src = iframe.src; // resetando a src para parar a reprodução
     //modal.classList.remove('is-active');
 //}
-
