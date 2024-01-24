@@ -82,7 +82,7 @@
           <h1 class="title is-5">Como acessar o painel de Streamin e visão geral</h1>
           <p>Nesta aula você aprenderá acessar seu painel de streaming, além de ter uma explicação geral sobre as funcionalidades do seu painel</p>
           <!--Modal de vídeo youtube-->
-          <div class="modal open-modal">
+          <div class="modal">
             <div class="modal-background"></div>
             <div class="modal-content">
               <iframe class="youtube-iframe" width="100%" height="315" src="https://www.youtube.com/embed/wXIRi9Hiuqk?si=38-ztzAYb7cHYukT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen enablejsapi></iframe>
@@ -105,7 +105,7 @@
           <h1 class="title is-5">Como acessar o painel de Streamin e visão geral</h1>
           <p>Nesta aula você aprenderá acessar seu painel de streaming, além de ter uma explicação geral sobre as funcionalidades do seu painel</p>
           <!--Modal de vídeo youtube-->
-          <div class="modal open-modal">
+          <div class="modal">
             <div class="modal-background"></div>
             <div class="modal-content">
               <iframe class="youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/wXIRi9Hiuqk?si=38-ztzAYb7cHYukT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

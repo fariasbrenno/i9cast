@@ -16,6 +16,7 @@ const closeModal = document.querySelector('.close-modal');
 const youtubeIframe = firstModal.querySelector('iframe');
 
 //abrir modal
+const testeModal = "setar estrutura html com javascript";
 openModal.addEventListener('click', () => {
     firstModal.classList.add('is-active');
 })
